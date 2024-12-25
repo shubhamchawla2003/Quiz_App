@@ -13,7 +13,7 @@ const Quiz = () => {
             ans:1,
         },
         {
-            question:"Which continent has the highest number pf countries?",
+            question:"Which continent has the highest number of countries?",
             option1:"Asia",
             option2:"Europe",
             option3:"North America",
@@ -139,7 +139,7 @@ const Quiz = () => {
 
         {
             result ? <>
-            <h1 className="text-xl">Your Scored {score} out of {data.length}</h1>
+            <h1 className="text-xl">Your Score is {score} out of {data.length}</h1>
             <NavLink to="/"><button className="border-2 p-2 w-20 rounded-md text-white
              bg-violet-700 ">Reset</button></NavLink>
             </> : <></>
