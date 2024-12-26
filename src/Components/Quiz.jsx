@@ -112,7 +112,7 @@ const Quiz = () => {
        flex flex-col gap-2 max-w-md ">
         <div className=" text-2xl font-bold">
             <h1>Quiz Time</h1>
-            <hr className=" w-80" />
+            <hr className=" md:w-80" />
         </div>
 
         {result ? <></> :<>
